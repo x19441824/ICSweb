@@ -1,0 +1,342 @@
+body{
+	background-image: url(XD1.jpg);/* Background image for first half of website*/
+	background-repeat:No-repeat;/* Making sure it doesnt repeat itself and continue going lower*/
+	Background-size: 100%;
+	background-color: #00022e; /* A color to be used as the background for the rest of the page after the image*/
+}
+
+p{
+	color: yellow;/* All text will appear as yellow if not specified otherwise*/
+	
+}
+
+
+#City {
+	
+width: 100%;/* This is for the header of the site describing what i want it to look like. */
+Height: 75px;
+text-align: center;/*Ensures all text is centered */
+margin-left: 7%;/*Brings the div in from the left */
+position: fixed;/*Makes the div stay fixed to the wepage and remain constant */
+top:7px;/*Distance from top */
+ z-index:9;/* Makes sure the div always appears on top */
+}
+
+.logo{
+	float: left;
+	Height: 75px;/* Specifies div hieght*/
+	width: 75px;/* Specifies div width*/
+}
+
+.dropdown {
+  position: relative; /* Ensures this div moves relative to the others*/
+  float:left;
+  Width: 25%;/* Specifies div width*/
+  Opacity: 1;
+}
+
+
+.dropbtn {
+	  background-color: White;
+  color: Blue;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  Width:100%;/* Specifies div width*/
+  height:75px;/* Specifies div hieght*/
+	opacity:1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width:100%;/* Specifies div width*/
+  font-size: 20px;
+  z-index:9;
+}
+
+.dropdown-content a {
+  color: black;
+   padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: yellow;
+}
+
+.main { 
+   Height: 2000px;/* Specifies div hieght*/
+   width: 80%;/* Specifies div width*/
+   background-color: grey;
+   Opacity:.95;
+   border-radius:	20px;
+   Padding-top: 7px;
+   position:relative;
+   text-align: left;
+   margin-top: 100px;
+   Margin-left:10%;
+}
+
+#happyimg { 	
+	Float: right;
+	Margin: 5px;
+	position: relative;
+}
+
+.maintxt{
+	Float: Left;
+	position:relative;
+	text-align: left;
+	color: blue;
+	font-size: 20px;
+}
+
+
+.happyimg{  
+float: right;
+Margin-right: 7px;
+Margin-top:40px;
+
+}
+
+.stupid{
+	Float: left;
+	width: 58%;/* Specifies div width*/
+}
+
+#form1{
+	Width: 20%;/* Specifies div width*/
+	Height: 20%;/* Specifies div hieght*/
+	Margin-left:40%;
+	text-align: center;
+	color: red;
+	Margin-bottom: 100px;
+	Margin-top:100px;
+	Background-color:#00022e;
+}
+
+.bottom{
+	Width:100%;/* Specifies div width*/
+	bottom:0;
+	position: fixed;
+	text-align:center;
+	height: 50px;/* Specifies div hieght*/
+	background-color:White;
+	color:blue;
+	left:0;
+}
+
+#annoying{
+	color:blue;
+}
+
+#vid1{ 
+	Margin-left: 8%;
+	
+}
+
+#gallery{
+	Width:100%;/* Specifies div width*/
+	background-color:black;
+	Height: 700px;/* Specifies div hieght*/
+	margin-top: 10px;
+	
+}
+
+.galleryimg {
+	Height: 250px;/* Specifies div hieght*/
+	width: 350px;/* Specifies div width*/
+	background-color: red;
+	Margin: 50px;
+	Margin-left: 80px;
+	Float: left;
+}
+
+H2{
+	color:blue;
+	text-align:center;
+}
+
+H1{
+	color:blue;
+	text-align:center;
+}
+
+#N1{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+}
+
+#text1{
+	position:relative;
+	font-size: 20px;
+}
+
+
+#btn{
+	float:left;
+	position:absolute;
+	left:16%;
+	bottom:15.5%;
+}
+
+#N2{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+}
+
+#btn2{
+	float:left;
+	position:absolute;
+	left:48%;
+	bottom:15.5%;
+}
+
+#N3{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+}
+
+#btn3{
+	float:left;
+	position:absolute;
+	left:80%;
+	bottom:15.5%;
+}
+
+#N4{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+	width: 26%/* Specifies div width*/
+}
+
+#btn4{
+	float:left;
+	position:absolute;
+	left:16%;
+	bottom:-1.5%;
+}
+
+#N5{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+	Width: 26%;/* Specifies div width*/
+}
+
+#btn5{
+	float:left;
+	position:absolute;
+	left:48%;
+	bottom:-1.5%;
+}
+
+#N6{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+	Width: 26%;/* Specifies div width*/
+}
+
+#btn6{
+	float:left;
+	position:absolute;
+	left:80%;
+	bottom:-1.5%;
+}
+
+@media screen and (max-width: 800px) {
+	.maintxt{
+	Float: Left;
+	position:relative;
+	text-align: left;
+	color: blue;
+	font-size: 12px;
+}
+	.happyimg{  
+float: right;
+Margin-right: 7px;
+Margin-top:150px;
+Width: 40%
+
+}
+#vid1{ 
+	Margin-left: 8%;
+}
+video{ height:300px;
+ width: 400px;
+}
+#btn{
+	float:left;
+	position:absolute;
+	left:42%;
+	bottom:37.5%;
+}
+#btn2{
+	float:left;
+	position:absolute;
+	left:42%;
+	bottom:20%;
+}
+#btn3{
+	float:left;
+	position:absolute;
+	left:42%;
+	bottom:3%;
+}
+#N4{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+	width: 70%/* Specifies div width*/
+}
+#btn4{
+	float:left;
+	position:absolute;
+	left:42%;
+	bottom:-14.5%;
+}
+#N5{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+	Width: 70%;/* Specifies div width*/
+}
+
+#btn5{
+	float:left;
+	position:absolute;
+	left:42%;
+	bottom:-32%;
+}
+#N6{
+	position:absolute;
+	z-index:8;
+	height:13%;/* Specifies div hieght*/
+	Width: 70%;/* Specifies div width*/
+}
+
+#btn6{
+	float:left;
+	position:absolute;
+	left:42%;
+	bottom:-49.5%;
+}
+
+
+
+}
